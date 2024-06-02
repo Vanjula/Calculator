@@ -50,8 +50,8 @@ button{
     background: transparent;
     color: blanchedalmond;
     box-shadow: -6px -6px 10px rgba(203, 199, 181, 0.2);
-    cursor: pointer;
     transition: transform 0.1s ease-in-out; 
+    cursor: pointer;
 }
 
 .equaloper{
