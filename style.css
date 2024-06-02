@@ -26,7 +26,7 @@ body{
 input{
     background: transparent;
     border: none;
-    width:350px;
+    width:352px;
     padding: 24px;
     margin: 10px;
     text-align: right;
@@ -34,6 +34,7 @@ input{
     box-shadow: 0px 3px 15px rgba(84,84,84,0.2);
     border-radius: 20px;
     cursor: pointer;
+    color: aliceblue;
 }
 
 input::placeholder{
@@ -59,4 +60,8 @@ button{
 
 button:hover{
     transform: scale(1.1);
+}
+
+.operator{
+    color:orange;
 }
