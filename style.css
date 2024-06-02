@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     
-    background: linear-gradient(45deg,#020202,#3a4452);
+    background: linear-gradient(45deg,#1c1b1b,#09203f);
 }
 
 .calculator{
@@ -31,7 +31,7 @@ input{
     margin: 10px;
     text-align: right;
     font-size: 40px;
-    box-shadow: 0px 3px 15px rgba(84,84,84,0.2);
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.3);
     border-radius: 20px;
     cursor: pointer;
     color: aliceblue;
@@ -46,12 +46,12 @@ button{
     margin:15px;
     height: 60px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 24px;
     background: transparent;
     color: blanchedalmond;
-    box-shadow: -8px -8px 10px rgba(203, 199, 181, 0.2);
+    box-shadow: -6px -6px 10px rgba(203, 199, 181, 0.2);
     cursor: pointer;
-    transition: transform 0.2s ease-in-out; 
+    transition: transform 0.1s ease-in-out; 
 }
 
 .equaloper{
@@ -59,7 +59,7 @@ button{
 }
 
 button:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .operator{
